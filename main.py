@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "Welcome to IronFit Gym"}
+    return {"message": "Welcome to BeFit Gym"}
 
 
 # Plans Data
